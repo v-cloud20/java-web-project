@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.128.78.7:9000/</sonar.host.url>
+		<sonar.host.url>http://172.22.16.1:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>drama20</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -96,14 +96,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>vinTech Releases Nexus Repository</name>
-	      <url> http://3.128.78.7:8081/repository/vin-web-app/</url>
+	      <name>vintech-release</name>
+	      <url>http://172.22.16.1:8082/repository/vintech-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>vinTech Snapshot Nexus Repository </name>
-	      <url>http://3.128.78.7:8081/repository/vin-web-app-Snapshot/</url>
+	      <name>vintech-snapshot</name>
+	      <url>http://172.22.16.1:8082/repository/vintech-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
